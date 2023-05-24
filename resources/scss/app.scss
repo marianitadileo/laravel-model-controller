@@ -1,0 +1,14 @@
+@import '~bootstrap/scss/bootstrap';
+
+.ms_color {
+    background-color: lightcyan;
+}
+
+.ms_card {
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.ms_card:hover {
+    transform: scale(1.2);
+}
